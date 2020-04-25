@@ -14,10 +14,13 @@
     "tag": "6.2.0",
 	"submodules": true
   },
-  "source_files": [
-    "include/fmt/*.h"
+  "public_header_files": [
+    "fmt_root/include/fmt/*.h"
   ],
-  "header_mappings_dir": "include",
+  "source_files": [
+    "fmt_root/include/fmt/*.h"
+  ],
+  "header_mappings_dir": "fmt_root/include",
   "platforms": {
     "ios": "7.0",
     "osx": "10.9",
